@@ -1,10 +1,6 @@
-students = [
-    ["Ram","Riya"],
-    ["John","Sara"],
-    ["Tom","David"]
-]
+students = [["Ram", "Riya"], ["John", "Sara"], ["Tom", "David"]]
 
-#without comprehension
+# Without comprehension
 
 all_students = []
 for student in students:
@@ -13,7 +9,7 @@ for student in students:
 
 print(all_students)
 
-#with comprehension
+# with comprehension
 
 all_students = [name for student in students for name in student]
 
