@@ -8,6 +8,17 @@
       "module": "uvicorn",
       "args": ["app.main:app"],
       "justMyCode": true
+    },
+    {
+      "name": "Python: Tests",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "tests/",
+        "-v"
+      ],
+      "justMyCode": true
     }
   ]
 }
